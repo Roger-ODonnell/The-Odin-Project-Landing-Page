@@ -73,3 +73,22 @@ img{
     width: 400px;
     height: auto;
 }
+
+.office-info{
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.offices{
+    margin-top: 5rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.offices img{
+    height: auto;
+    width: 300px;
+    border-radius: 1rem;
+    border: #3882F6 solid;
+}
