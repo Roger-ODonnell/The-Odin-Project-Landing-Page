@@ -9,7 +9,7 @@ header{
 }
 
 img{
-    width: 200px;
+    width: 300px;
     height: auto;
 }
 .navbar{
@@ -53,6 +53,7 @@ img{
     flex: 1;
     color: white;
     gap: 8px;
+    flex-shrink: 0;
 }
 .left-panel button{
     align-self: flex-start;
@@ -69,6 +70,6 @@ img{
     flex: 1;
 }
 .right-panel img{
-    width: 300px;
+    width: 400px;
     height: auto;
 }
