@@ -38,3 +38,37 @@ img{
     font-size: 15px;
     color: #c3c3c3;
 }
+
+.sub-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 5rem;
+    padding: 5rem;
+}
+.left-panel{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: white;
+    gap: 8px;
+}
+.left-panel button{
+    align-self: flex-start;
+    flex-grow: 0;
+    padding: 8px 16px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.right-panel{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.right-panel img{
+    width: 300px;
+    height: auto;
+}
