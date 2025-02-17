@@ -19,8 +19,14 @@ img{
 .navbar ul{
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    margin-right: 5rem;
     list-style-type: none;
     gap: 16px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
 }
 .nav-left, .nav-right{
     flex: 1;
