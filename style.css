@@ -92,3 +92,20 @@ img{
     border-radius: 1rem;
     border: #3882F6 solid;
 }
+
+.quote{
+    background-color: grey;
+    padding: 5rem;
+    text-align: center;
+    margin-bottom: 1rem
+}
+.quote p{
+    color: white;
+    width: 50%;
+    margin: auto;
+}
+
+section{
+    color: black;
+    font-weight: bold;
+}
